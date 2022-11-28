@@ -1,5 +1,7 @@
 package com.cc.java;
 
-public class Child {
-    
+public class Child extends Parent {
+  public String sayHello() {
+        return "Hello from Child";
+    }
 }
